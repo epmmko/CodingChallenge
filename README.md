@@ -1,10 +1,12 @@
-# Requirement
+# Requirement / Caution
 1) Manually delete the line with no charactor at the end of log file
 The line with nothing at the end of log.txt was deleted manually.
 If the '\n' at the end (line without anything at the end of file) was not delete, some run-time error will occur.
 
 2) use C++11 standard to compile
 Otherwise, syntax error will occur when compile.
+
+3) when output text file was created in Unix environment, open it with notepad in Windows environment will cause error (new line character was not shown correctly), use TextPad to open it instead.
 
 # Overview
 Source codes need to be compiled with c++11 standard.
