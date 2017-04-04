@@ -7,7 +7,7 @@
 6. [Feature4 code Explanation](README.md#Feature4-code-Explanation)
 7. [Problem statement](README.md#Given-Challenge-Summary)
 
-# Requirement / Caution
+## Requirement / Caution
 1) Manually delete the line with no charactor at the end of log file
 The line with nothing at the end of log.txt was deleted manually.
 If the '\n' at the end (line without anything at the end of file) was not delete, some run-time error will occur.
