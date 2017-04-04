@@ -8,6 +8,8 @@ Otherwise, syntax error will occur when compile.
 
 3) when output text file was created in Unix environment, open it with notepad in Windows environment will cause error (new line character was not shown correctly), use TextPad to open it instead.
 
+4) the provided exe files are compiled in Unix environment (Cygwin). They won't run on windows environment. To directly use these exe file (get the same thing if g++ is used to compile the .cpp file) type "./Feature1.exe", (without "") for example.
+
 # Overview
 Source codes need to be compiled with c++11 standard.
 To compile with gcc
