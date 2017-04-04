@@ -32,3 +32,4 @@ Feature 4 took 550 second
 
 Result Explanation
 Feature 1:
+![Feature 1 illustration](images/Feature1Result.png)
