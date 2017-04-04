@@ -1,3 +1,12 @@
+# Table of Contents
+1. [Problem statement](README.md#Given Challenge Summary)
+2. [Requrement / Caution](README.md#Requirement / Caution)
+3. [Overview](README.md#Overview)
+4. [Feature1 code Explanation](README.md#Feature1 code Explanation)
+5. [Feature2 code Explanation](README.md#Feature2 code Explanation)
+6. [Feature3 code Explanation](README.md#Feature3 code Explanation)
+7. [Feature4 code Explanation](README.md#Feature4 code Explanation)
+
 # Requirement / Caution
 1) Manually delete the line with no charactor at the end of log file
 The line with nothing at the end of log.txt was deleted manually.
@@ -69,3 +78,24 @@ First, the irrelevant entries from the log.txt were removed. The irrelevant entr
 The data was processing line-by-line after majority of the irrelevant entries were excluded (as explained earlier). No "physical" exclusion from the data structure (unordered_map) was done to reduce run-time. "if" statement was used instead to neglect those who are not in the list (3+ fail login). The request that is "GET from the IP that has the total violation of 3 or more was evaluated too. First, the "to be blocked list" was checked to see if the IP in consideration should be blocked or not. If it is blocked, then the next entry will be evaluated. If it is not in the list, then the program determine if the the login attempt is fail (401) or success (200). Then, the tracking list was updated accordingly. The data processing stop at the end of the line.
 
 ![Feature 4 illustration](images/Feature4Result.png)
+
+
+**********************
+# Given Challenge Summary
+
+Picture yourself as a backend engineer for a NASA fan website that generates a large amount of Internet traffic data. Your challenge is to perform basic analytics on the server log file, provide useful metrics, and implement basic security measures. 
+
+The desired features are described below: 
+
+### Feature 1: 
+List the top 10 most active host/IP addresses that have accessed the site.
+
+### Feature 2: 
+Identify the 10 resources that consume the most bandwidth on the site
+
+### Feature 3:
+List the top 10 busiest (or most frequently visited) 60-minute periods 
+
+### Feature 4: 
+Detect patterns of three failed login attempts from the same IP address over 20 seconds so that all further attempts to the site can be blocked for 5 minutes. Log those possible security breaches.
+
