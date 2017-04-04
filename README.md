@@ -79,8 +79,6 @@ The data was processing line-by-line after majority of the irrelevant entries we
 
 ![Feature 4 illustration](images/Feature4Result.png)
 
-
-**********************
 ## Given Challenge Summary
 
 Picture yourself as a backend engineer for a NASA fan website that generates a large amount of Internet traffic data. Your challenge is to perform basic analytics on the server log file, provide useful metrics, and implement basic security measures. 
