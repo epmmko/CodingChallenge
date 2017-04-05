@@ -25,10 +25,15 @@ To compile with gcc
 1)	Go to the directory that source file is located by
 cd src
 2)	Compile each file by
+
 g++ -std=c++11 Feature1.cpp Feature1.exe
+
 g++ -std=c++11 Feature2.cpp Feature2.exe
+
 g++ -std=c++11 Feature3.cpp Feature3.exe
+
 g++ -std=c++11 Feature4.cpp Feature4.exe
+
 
 move the .exe file to the same location as the log.txt (otherwise won't work)
 then run .exe file, file by file, by typing
