@@ -53,18 +53,7 @@ Feature 3 took roughly 7 seconds.
 Feature 4 took roughly 4 seconds.
 
 
-I use Visual Studio to write the code and debug.
-To get the full speed, try to compile in Unix environment (I did cygwin64 with g++).
-I also tested my code in windows environment.
-In Windows environment, 
-
-Feature 1 took 113 second
-
-Feature 2 took 423 second
-
-Feature 3 took 234 second
-
-Feature 4 took 550 second
+If use Visual studio, it need to be in release mode (not debug mode) to allow the resulting exe to run fastest. Roughly the same speed was achieved.
 
 
 ## Feature1 code Explanation
